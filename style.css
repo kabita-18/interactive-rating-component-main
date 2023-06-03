@@ -1,0 +1,94 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    background: #000;
+    color: #848181;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Tajawal', sans-serif;
+}
+.container{
+    width: 100vh;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.card{
+    
+    height: 330px;
+    width: 330px;
+    border: 2px solid white;
+
+    background: hsl(240, 3%, 7%);
+    border-radius:30px;
+    
+    
+    
+}
+.star{
+    padding: 10px;
+    border-radius: 50%;
+    background: #1b1919;
+    height: 20px;
+    margin-left: 15px;
+    margin-top: 15px; 
+    
+}
+.heading{
+    padding-left: 15px;
+}
+.paragraph{
+   padding-left: 15px;
+   font-size: 15px;
+    
+}
+.rating > span{
+    padding: 10px;
+    border-radius: 50%;
+    background: #1b1919;
+    height: 20px;
+    margin-left: 15px;
+    margin-top: 15px; 
+    margin-right: 5px;
+}
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+.submitbtn{
+    background: hsl(25, 97%, 53%);
+    width: 90%;
+    padding: 10px;
+    margin-top: 35px;
+    border-radius: 20px;
+    margin-left: 15px;
+   
+    text-align: center;
+    
+    
+}
+#card1{
+    display: none;
+}
+#card1 > .heading, #card1>p{
+    text-align: center;
+
+}
+#submittedrating{
+    color:  hsl(25, 97%, 53%);
+    text-align: center;
+
+}
+
+.thankyouimage{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
